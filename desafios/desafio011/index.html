@@ -4,15 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus vídeos</title>
+    <title>Plano de fundo</title>
+    <style>
+        body{
+            background-color: lightgray;
+            background-image: url(imagens/espaco.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            
+        }
+        .imagem{
+            position: absolute;
+            height: 400px;
+            width: 400px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url(imagens/astronauta.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
-<body style="background-color: rgb(22, 122, 127);">
-    <h1 style="text-align:center;color: aliceblue;">Vídeos legais para assistir</h1>
-    <div style="text-align: center;">
-        <a href="video-1.html"><img src="imagens/foto-1.png" alt="Thumbnail Programando JavaScript"></a> <a href="video-2.html"><img src="imagens/foto-2.png" alt="Thumbnail Programando Python"></a>
-        <p>
-            <a href="video-3.html"><img src="imagens/foto-3.png" alt="Thumbnail Aprenda Hardware"></a> <a href="video-4.html"><img src="imagens/foto-4.png" alt="Thumbnail Aprenda HTML e CSS"></a>
-        </p>
-    </div>
+<body>
+    <section class="imagem">
+
+    </section>
 </body>
 </html>
