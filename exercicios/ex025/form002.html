@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Username: </label><input type="text" name="nome" id="inome" required minlength="3" maxlength="30" size="20" autocomplete="username" placeholder="           Username">
+        </p>
+        <p>
+            <label for="ipass">Password: <input type="password" name="pass" id="ipass" required minlength="8" maxlength="20" autocomplete="current-password" placeholder="            Password"></label>
+        </p>
+        <p>
+            <input type="submit" value="Cadastrar">
+        </p>
+
+
+    </form>
+</body>
+</html>
