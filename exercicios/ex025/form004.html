@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+<body>
+    <h1>Testando formulários</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+            </p>
+            <p>
+                <label for="imail">Email: </label>
+                <input type="email" name="email" id="imal" autocomplete="email" required placeholder="Email">
+            </p>
+            <p>
+                <label for="itel">Telemóvel: </label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(\d{+3}\)\d{2}-\d{3}-\d{4}$" placeholder="(+xxx)xx xxx xxxx">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset"  value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
