@@ -19,10 +19,22 @@ header h1{
     text-align: center;
 }
 
-menu{
+.material-symbols-outlined{
+    color: white;
     display: block;
+    cursor: pointer;
+    background-color: gray;
+    text-align: center;
+}
+.material-symbols-outlined:hover{
+    color: black;
+    background-color: white;
+}
+menu{
+    display: none;
     
 }
+
 menu ul{
     list-style-type: none;
 }
